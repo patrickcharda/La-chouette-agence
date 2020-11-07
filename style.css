@@ -453,7 +453,7 @@ button {
 }
 
 #bloc-1-hero h1 {
-  font-size: 32px;
+  font-size: 2.3em;
 }
 
 .navbar {
@@ -491,7 +491,7 @@ button {
 .nav > li {
   float: left;
   margin-top: 4px;
-  font-size: 16px;
+  font-size: 18px;
 }
 .nav > li a:hover {
   background: transparent;
@@ -792,7 +792,7 @@ h3 {
   font-family: "helvetica";
   font-weight: 400;
   color: #575757 !important;
-  font-size: 15px;
+  /*font-size: 16px;*/
   /*text-transform: uppercase;*/
   font-size: 1.4em;
   line-height: 1.4em;
@@ -823,12 +823,12 @@ p {
   font-family: "helvetica";
   font-weight: 400;
   color: #575757;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 .highlight {
   padding-bottom: 1.3em;
-  font-size: 1.6em;
+  font-size: 1.6em !important;
   font-weight: 500;
   font-family: "Helvetica";
   color: #575757;
@@ -836,7 +836,7 @@ p {
 
 .highlight-italic {
   font-family: "Serif";
-  font-size: 1.4em;
+  font-size: 1.4em !important;
   color: #575757;
   border-left: none !important;
   font-style: italic;
@@ -845,12 +845,12 @@ p {
 .highlight-italic::before {
   content: "“";
   color: #6f911a;
-  font-size: 1em;
+  font-size: 1.4em;
 }
 .highlight-italic::after {
   content: "”";
   color: #6f911a;
-  font-size: 1em;
+  font-size: 1.4em;
 }
 
 label {
@@ -896,7 +896,7 @@ label {
   color: #FFFFFF !important;
   text-transform: uppercase;
   padding: 12px 28px 12px 28px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
 }
 
@@ -1122,8 +1122,8 @@ label {
   }
 
   .bloc {
-    padding-left: env(SAFE-AREA-INSET-LEFT, 10px);
-    padding-right: env(SAFE-AREA-INSET-RIGHT, 10px);
+    padding-left: env(safe-area-inset-left, 10px);
+    padding-right: env(safe-area-inset-right, 10px);
   }
 
   .bloc-group {
@@ -1371,6 +1371,15 @@ label {
     padding-left: 0;
     padding-right: 0;
   }
+}
+.letter-sp {
+  letter-spacing: 0.1em;
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+em {
+  font-size: 1.2em;
 }
 
 /*# sourceMappingURL=style.css.map */
