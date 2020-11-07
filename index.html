@@ -39,11 +39,11 @@
 						<!--<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>-->
 						<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png" alt="Logo La Chouette Agence - Webdesign Lyon" height="40" /></a>
 						<!--<div class="keywords" style="color:#cccccc;font-size:1px;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>-->
-						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+						<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1" aria-controls="sitemenu">
 							<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 						</button>
 					</div>
-					<nav class="collapse navbar-collapse navbar-1 special-dropdown-nav">
+					<nav class="collapse navbar-collapse navbar-1 special-dropdown-nav" id="sitemenu">
 						<ul class="site-navigation nav navbar-nav">
 							<li>
 								<a href="index.html">Accueil</a>
@@ -60,14 +60,14 @@
 		</header>
 		<!-- bloc-0 END -->
 
-		<main>
+		<main aria-labelledby="contenu">
 				<!-- bloc-1-presentation -->
 			<section aria-label="Présentation de l'agence" class="bloc bgc-dark-slate-blue bg-banniere d-bloc bg-t-edge bloc-bg-texture texture-paper b-parallax" id="bloc-1-hero">
 				<div class="container bloc-lg">
 					<div class="row tight-width-whitespace">
 						<div class="col-sm-12">
-							<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="La Chouette Agence, agence web Lyon, création logo Lyon" />
-							<h1 class="text-center hero-bloc-text tc-white ">
+							<img src="img/logo.png" class="center-block image-resize-mode" width="100" alt="Logo La Chouette Agence - Lyon" />
+							<h1 class="text-center hero-bloc-text tc-white" id="contenu">
 								Agence Lyonnaise de Web Design
 							</h1>
 							<div class="text-center">
@@ -167,8 +167,8 @@
 					</div>
 					<div class="row tight-width-whitespace portfolio-row">
 						<div class="col-sm-6">
-							<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb"><img src="img/1.jpg" alt="paris web design logo agence web meilleure agence et refonte site web journal" class="img-responsive portfolio-thumb" /></a>
-							<h3 class="mg-md text-center">
+							<a href="#" data-lightbox="img/1.jpg" data-gallery-id="gallery-1" data-caption="Refonte d'un site web pour un journal local" data-frame="snapshot-lb" aria-describedby="journal"><img src="img/1.jpg" alt="" class="img-responsive portfolio-thumb" /></a>
+							<h3 class="mg-md text-center" id="journal">
 								Refonte d'un site web pour un journal local
 							</h3>
 							<p class="text-center">
@@ -176,8 +176,8 @@
 							</p>
 						</div>
 						<div class="col-sm-6">
-							<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour photographes" /></a>
-							<h3 class="mg-md text-center">
+							<a href="#" data-lightbox="img/2.jpg" data-gallery-id="gallery-1" data-caption="Création d'un site web pour photographes" data-frame="snapshot-lb" aria-describedby="photograph"><img src="img/2.jpg" class="img-responsive portfolio-thumb" alt="" /></a>
+							<h3 class="mg-md text-center" id="photograph">
 								Création d'un site web pour photographes
 							</h3>
 							<p class="text-center">
@@ -187,8 +187,8 @@
 					</div>
 					<div class="row tight-width-whitespace portfolio-row">
 						<div class="col-sm-6">
-							<a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb"><img src="img/3.bmp" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour voyageur"/></a>
-							<h3 class="mg-md text-center">
+							<a href="#" data-lightbox="img/3.bmp" data-gallery-id="gallery-1" data-caption="Création d'un site internet pour un voyageur" data-frame="snapshot-lb" aria-describedby="voyageur"><img src="img/3.bmp" class="img-responsive portfolio-thumb" alt=""/></a>
+							<h3 class="mg-md text-center" id="voyageur">
 								Création d'un site internet pour un voyageur
 							</h3>
 							<p class="text-center">
@@ -196,8 +196,8 @@
 							</p>
 						</div>
 						<div class="col-sm-6">
-							<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1" data-caption="Conception d'un site pour une agence de mariage" data-frame="snapshot-lb"><img src="img/4.bmp" class="img-responsive portfolio-thumb" alt="paris web design logo agence web meilleure agence, Création d'un site web pour agence de mariage" /></a>
-							<h3 class="mg-md text-center">
+							<a href="#" data-lightbox="img/4.bmp" data-gallery-id="gallery-1" data-caption="Conception d un site pour une agence de mariage" data-frame="snapshot-lb" aria-describedby="mariage"><img src="img/4.bmp" class="img-responsive portfolio-thumb" alt="" /></a>
+							<h3 class="mg-md text-center" id="mariage">
 								Conception d'un site pour une agence de mariage
 							</h3>
 							<p class="text-center">
@@ -236,22 +236,22 @@
 						<div class="row row-no-gutters social">
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
+									<a class="social" href="index.html" aria-label="icone de lien vers Twitter"><span class="fa fa-twitter icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
+									<a class="social" href="index.html" aria-label="icone de lien vers Facebook"><span class="fa fa-facebook icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
+									<a class="social" href="index.html" aria-label="icone de lien vers Dribble"><span class="fa fa-dribbble icon-md"></span></a>
 								</div>
 							</div>
 							<div class="col-sm-3">
 								<div class="text-center">
-									<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
+									<a class="social" href="index.html" aria-label="icone de lien vers Instagram"><span class="fa fa-instagram icon-md"></span></a>
 								</div>
 							</div>
 							<!--<div class="keywords" style="color:#F3976C;">Agence web à paris, stratégie web, web design, illustrations, design de site web, site web, web, internet, site internet, site</div>-->
