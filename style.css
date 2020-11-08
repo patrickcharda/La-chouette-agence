@@ -710,6 +710,10 @@ a[data-lightbox]:hover img {
   left: 15px;
   right: 15px;
   bottom: 5px;
+  text-align: center;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .close-lightbox {
@@ -934,7 +938,7 @@ label {
 }
 
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: #8D6B49;
   padding: 40px 40px 40px 40px;
 }
 
@@ -1004,7 +1008,7 @@ label {
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.bmp");
+  background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (min-width: 768px) {
@@ -1382,6 +1386,13 @@ em {
   font-size: 1.2em;
   font-weight: 500;
   color: #575757;
+}
+
+.img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 320px;
+  height: 320px;
 }
 
 /*# sourceMappingURL=style.css.map */
