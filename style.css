@@ -45,10 +45,10 @@ button {
   -o-background-size: cover;
   background-size: cover;
   position: relative;
-}
-.bloc .container {
-  padding-left: 0;
-  padding-right: 0;
+  /*.container {
+  	padding-left: 0;
+  	padding-right: 0;
+  }*/
 }
 
 .bloc-lg {
@@ -212,7 +212,7 @@ button {
   color: white;
 }
 .d-bloc a:hover .icon-md {
-  color: #364577;
+  color: #364577 !important;
   transform: scale(1.2);
 }
 .d-bloc a:hover .icon-lg {
@@ -886,7 +886,7 @@ label {
 }
 
 .tight-width-whitespace {
-  max-width: 600px;
+  max-width: 700px;
   margin: auto auto auto auto;
 }
 
@@ -1096,12 +1096,12 @@ label {
     max-width: 100%;
   }
 }
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .b-parallax {
     background-attachment: scroll;
   }
 }
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   .b-parallax {
     background-attachment: scroll;
   }
@@ -1126,8 +1126,7 @@ label {
   }
 
   .bloc {
-    padding-left: env(safe-area-inset-left, 10px);
-    padding-right: env(safe-area-inset-right, 10px);
+    padding: env(safe-area-inset-left, 10px) env(safe-area-inset-right, 10px);
   }
 
   .bloc-group {
@@ -1141,13 +1140,13 @@ label {
 
   .bloc-fill-screen .fill-bloc-top-edge {
     padding: 0 20px;
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
   }
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding: 0 20px;
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
+    padding-left: env(safe-area-inset-left);
+    padding-right: env(safe-area-inset-right);
   }
 }
 @media (max-width: 767px) {
@@ -1393,6 +1392,10 @@ em {
   margin-right: auto;
   width: 320px;
   height: 320px;
+}
+
+.white {
+  color: white !important;
 }
 
 /*# sourceMappingURL=style.css.map */
