@@ -221,6 +221,10 @@ button {
 .d-bloc a:hover .icon-xl {
   color: white;
 }
+.d-bloc a:focus .icon-md {
+  color: #364577 !important;
+  transform: scale(1.2);
+}
 .d-bloc h1 a {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -351,6 +355,12 @@ button {
 }
 .l-bloc .navbar-brand:hover {
   color: black;
+  background-color: rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+.l-bloc .navbar-brand:focus {
+  box-shadow: 1px 1px 1px #364577;
+  transform: scale(1.1);
 }
 .l-bloc a .icon-sm {
   color: rgba(0, 0, 0, 0.6);
@@ -494,10 +504,12 @@ button {
   font-size: 18px;
 }
 .nav > li a:hover {
-  background: transparent;
+  background: rgba(0, 0, 0, 0.4);
+  color: white !important;
 }
 .nav > li a:focus {
-  background: transparent;
+  background: rgba(0, 0, 0, 0.4);
+  color: white !important;
 }
 .nav > li > .dropdown a {
   background: none !important;
@@ -514,7 +526,10 @@ button {
   border: 0px;
 }
 .navbar-toggle:hover {
-  background: transparent !important;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.navbar-toggle:focus {
+  background-color: rgba(0, 0, 0, 0.3);
 }
 .navbar-toggle .icon-bar {
   background-color: rgba(0, 0, 0, 0.5);
@@ -974,13 +989,25 @@ label {
   background: #c27956 !important;
   color: #FFFFFF !important;
   transform: scale(1.05);
+  border: white 2px solid;
+}
+.btn-atomic-tangerine:focus {
+  background: #c27956 !important;
+  color: #FFFFFF !important;
+  transform: scale(1.05);
+  border: white 2px solid;
 }
 
 .ltc-white {
   color: #FFFFFF !important;
 }
 .ltc-white:hover {
-  color: #cccccc !important;
+  background-color: white !important;
+  color: #333333 !important;
+}
+.ltc-white:focus {
+  background-color: white !important;
+  color: #333333 !important;
 }
 
 .ltc-atomic-tangerine {
@@ -1394,8 +1421,19 @@ em {
   height: 320px;
 }
 
+.img-realisations:focus {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 .white {
   color: white !important;
+}
+
+.btn2:focus {
+  border: 3px solid #333333 !important;
+}
+.btn2:hover {
+  border: 3px solid #333333 !important;
 }
 
 /*# sourceMappingURL=style.css.map */

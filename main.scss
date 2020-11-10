@@ -213,6 +213,12 @@ button {
 				color: rgba(255, 255, 255, 1);
 			}
 		}
+		&:focus {
+			.icon-md {
+				color: #364577 !important;
+				transform: scale(1.2);
+			}
+		}
 	}
 	h1 {
 		a {
@@ -368,6 +374,13 @@ button {
 		color: rgba(0, 0, 0, .6);
 		&:hover {
 			color: rgba(0, 0, 0, 1);
+			//border: 1px solid #DC2F02;
+			background-color: rgba(0, 0, 0, 0.3);
+			transform: scale(1.05);
+		}
+		&:focus {
+			box-shadow: 1px 1px 1px #364577;
+			transform: scale(1.1);
 		}
 	}
 	a {
@@ -533,10 +546,12 @@ button {
 		font-size: 18px;
 		a {
 			&:hover {
-				background: transparent;
+				background: rgba(0, 0, 0, .4);
+				color: white !important;
 			}
 			&:focus {
-				background: transparent;
+				background: rgba(0, 0, 0, .4);
+				color: white !important;
 			}
 		}
 		>.dropdown {
@@ -563,8 +578,13 @@ button {
 	margin: 10px 10px 0 0;
 	border: 0px;
 	&:hover {
-		background: transparent !important;
+		//background: transparent !important;
+		background-color: rgba(0, 0, 0, 0.3);
 	}
+	&:focus {
+		background-color: rgba(0, 0, 0, 0.3);
+	}
+
 	.icon-bar {
 		background-color: rgba(0, 0, 0, .5);
 		width: 26px;
@@ -981,12 +1001,24 @@ label {
 		background: #c27956 !important;
 		color: #FFFFFF !important;
 		transform: scale(1.05);
+		border: white 2px solid;
+	}
+	&:focus {
+		background: #c27956 !important;
+		color: #FFFFFF !important;
+		transform: scale(1.05);
+		border: white 2px solid;
 	}
 }
 .ltc-white {
 	color: #FFFFFF !important;
 	&:hover {
-		color: #cccccc !important;
+		background-color: white !important;
+		color: #333333 !important;
+	}
+	&:focus {
+		background-color: white !important;
+		color: #333333 !important;
 	}
 }
 .ltc-atomic-tangerine {
@@ -1389,7 +1421,21 @@ em {
 	width: 320px;
 	height: 320px;
 }
+.img-realisations {
+	&:focus {
+		background-color: rgba(0, 0, 0, 0.2);
+	}
+}
 .white {
 	color: white !important;
 	
+}
+.btn2 {
+	&:focus {
+		border: 3px solid #333333 !important;
+	}
+	&:hover {
+		border: 3px solid #333333 !important;
+	}
+
 }
