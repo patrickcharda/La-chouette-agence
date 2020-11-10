@@ -986,13 +986,13 @@ label {
   color: #FFFFFF !important;
 }
 .btn-atomic-tangerine:hover {
-  background: #c27956 !important;
+  background: #B61600 !important;
   color: #FFFFFF !important;
   transform: scale(1.05);
   border: white 2px solid;
 }
 .btn-atomic-tangerine:focus {
-  background: #c27956 !important;
+  background: #B61600 !important;
   color: #FFFFFF !important;
   transform: scale(1.05);
   border: white 2px solid;
@@ -1424,6 +1424,10 @@ em {
 .img-realisations:focus {
   background-color: rgba(0, 0, 0, 0.2);
 }
+.img-realisations:focus > img {
+  border: 2px solid #DC2F02;
+  opacity: 0.4;
+}
 
 .white {
   color: white !important;
@@ -1434,6 +1438,28 @@ em {
 }
 .btn2:hover {
   border: 3px solid #333333 !important;
+}
+
+.h2plus, .h1plus {
+  font-size: 2.5em !important;
+}
+
+.a-uplift {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.a-uplift:focus-within {
+  transform: scale(1.4);
+  background-color: #000000;
+}
+.a-uplift > span {
+  color: white;
+}
+
+.fa-chevron-up:focus {
+  transform: scale(1.4) !important;
+}
+.fa-chevron-up:hover {
+  transform: scale(1.4) !important;
 }
 
 /*# sourceMappingURL=style.css.map */

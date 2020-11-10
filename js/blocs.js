@@ -64,6 +64,14 @@ function scrollToTarget(t) {
     }, "slow"), $(".navbar-collapse").collapse("hide")
 }
 
+function scrollIfEnter(event) {
+    var x = event.keyCode;
+  if (x == 13) {  // 27 is the ESC key
+    //alert ("You pressed the Escape key!");
+    scrollToTarget(1);
+  }
+}
+
 function animateWhenVisible() {
     hideAll(), inViewCheck(), $(window).scroll(function() {
         inViewCheck(), scrollToTopView(), stickyNavToggle()
