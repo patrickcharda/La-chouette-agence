@@ -1441,14 +1441,18 @@ em {
 }
 
 .h2plus, .h1plus {
-  font-size: 2.5em !important;
+  font-size: 2.7em !important;
+}
+
+.pplus {
+  font-size: 1.8em;
 }
 
 .a-uplift {
   background-color: rgba(0, 0, 0, 0.7);
 }
 .a-uplift:focus-within {
-  transform: scale(1.4);
+  transform: scale(1.2);
   background-color: #000000;
 }
 .a-uplift > span {
