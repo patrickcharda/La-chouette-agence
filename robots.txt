@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+User-Agent: *
+Disallow: /img
+Disallow: /js
+Disallow: /css
+Disallow: /includes
+Disallow: /fonts
+
+Sitemap: https://patrickcharda.github.io/PatrickChardavoineRoques_4_021120/sitemap.xml
