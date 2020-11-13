@@ -978,7 +978,7 @@ label {
 
 .bgc-atomic-tangerine {
   /*background-color: #F3976C;*/
-  background-color: #DC2F02;
+  background-color: #c0392b;
 }
 
 .tc-white {
@@ -988,7 +988,7 @@ label {
 
 .btn-atomic-tangerine {
   /*background: #F3976C;*/
-  background: #DC2F02;
+  background: #B61600;
   color: #FFFFFF !important;
 }
 .btn-atomic-tangerine:hover {

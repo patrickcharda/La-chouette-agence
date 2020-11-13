@@ -2,7 +2,6 @@ User-agent: *
 Allow: /
 
 User-Agent: *
-Disallow: /img
 Disallow: /js
 Disallow: /css
 Disallow: /includes
