@@ -1006,7 +1006,7 @@ label {
 	background-image: url("img/lines-h2-bg.png");
 }
 .bg-banniere {
-	background-image: url("./../img/la-chouette-agence-banniere.jpg");
+	background-image: url("./../img/la-chouette-agence-banniere.jpg"), url("./img/la-chouette-agence-banniere.jpg");
 	filter: brightness(.6);
 	filter: contrast(150%);
 }
