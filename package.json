@@ -4,7 +4,8 @@
   "description": "Version initiale d'un site à améliorer en termes d'accessibilité et de référencement.",
   "main": "index.js",
   "scripts": {
-    "test": "sass --watch main.scss style.css"
+    "test": "sass --watch main.scss style.css --style compressed",
+    "prefix": "postcss ./style.css --use autoprefixer -d ./prefixed"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/patrickcharda/to-chouette-plus/issues"
   },
-  "homepage": "https://github.com/patrickcharda/to-chouette-plus#readme"
+  "homepage": "https://github.com/patrickcharda/to-chouette-plus#readme",
+  "browserslist": "last 4 versions"
 }
