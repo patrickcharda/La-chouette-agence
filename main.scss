@@ -1410,9 +1410,15 @@ em {
 	}
 
 }
-.h2plus, .h1plus {
+
+.h2plus {
 	font-size: 2.7em !important;
 }
+
+.h1plus {
+	font-size: 3em !important;
+}
+
 .pplus {
 	font-size: 1.8em;
 }
@@ -1437,4 +1443,6 @@ em {
 }
 #pret {
 	color: white;
+	padding-left: 15px !important;
+	padding-right: 15px !important;
 }
