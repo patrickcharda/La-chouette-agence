@@ -6,12 +6,16 @@ Il s'agit d'auditer les pages et de mettre en place tout ce qui peut l'être imm
 
 **performances initiales**
 
+[version originale du site](https://patrickcharda.github.io/la-chouette-agence-old/)
+
 ![Mesure de performances initiales via GT Metrix](https://github.com/patrickcharda/la-chouette-agence-V.ref/blob/main/GTmetrix-avant.png)
 
 ![Mesure de performances initiales via Lighthouse](https://github.com/patrickcharda/la-chouette-agence-V.ref/blob/main/Lighthouse-avant.png)
 
 
 **performances après optimisation**
+
+[version optimisée du site](https://patrickcharda.github.io/PatrickChardavoineRoques_4_021120/)
 
 ![Mesure de performances optimisées via GT Metrix](https://github.com/patrickcharda/la-chouette-agence-V.ref/blob/main/GTmetrix-apres.png)
 
