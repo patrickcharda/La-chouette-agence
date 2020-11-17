@@ -2,6 +2,7 @@
 
 Projet d'optimisation "SEO et accessibilité" des performances du site web d'une entreprise virtuelle dans le cadre de la formation en ligne développeur web, dispensée par Openclassrooms.
 Il s'agit d'auditer les pages et de mettre en place tout ce qui peut l'être immédiatement du point de vue des bonnes pratiques de référencement -"white seo"- et d'accessibilité. En outre il s'agit d'améliorer le temps de chargement des pages.
+Une grille d'analyse SEO intégrant 10 recommandations sélectionnées pour l'amélioration du site, ainsi qu'un rapport d'optimisation accompagné de l'ensemble du code source constituaient les livrables.
 
 
 **performances initiales**
