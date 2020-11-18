@@ -16,7 +16,7 @@ Une grille d'analyse SEO intégrant 10 recommandations sélectionnées pour l'am
 
 **performances après optimisation**
 
-[visiter la version optimisée du site](https://patrickcharda.github.io/PatrickChardavoineRoques_4_021120/)
+[visiter la version optimisée du site](https://patrickcharda.github.io/La_Chouette_Agence/)
 
 ![Mesure de performances optimisées via GT Metrix](https://github.com/patrickcharda/la-chouette-agence-V.ref/blob/main/GTmetrix-apres.png)
 
