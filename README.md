@@ -22,4 +22,10 @@ Une grille d'analyse SEO intégrant 10 recommandations sélectionnées pour l'am
 
 ![Mesure de performances optimisées via Lighthouse](https://github.com/patrickcharda/la-chouette-agence-V.ref/blob/main/Lighthouse-apres.png)
 
+### Analyse et rapport d'optimisation
+
+https://github.com/patrickcharda/La_Chouette_Agence/blob/main/P4_01_analyse.xlsx
+
+
+
 
