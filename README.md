@@ -26,6 +26,7 @@ Une grille d'analyse SEO intégrant 10 recommandations sélectionnées pour l'am
 
 https://github.com/patrickcharda/La_Chouette_Agence/blob/main/P4_01_analyse.xlsx
 
+https://github.com/patrickcharda/La_Chouette_Agence/blob/main/P4_03_rapport-d-optimisation.docx
 
 
 
