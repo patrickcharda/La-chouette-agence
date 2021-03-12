@@ -7,7 +7,7 @@ Une grille d'analyse SEO intégrant 10 recommandations sélectionnées pour l'am
 
 **performances initiales**
 
-[visiter la version initiale (et défectueuse!) du site](https://patrickcharda.github.io/la-chouette-agence-old/)
+[visiter la version du site avant optimisation](https://patrickcharda.github.io/la-chouette-agence-old/)
 
 ![Mesure de performances initiales via GT Metrix](https://github.com/patrickcharda/la-chouette-agence-V.ref/blob/main/GTmetrix-avant.png)
 
@@ -16,7 +16,7 @@ Une grille d'analyse SEO intégrant 10 recommandations sélectionnées pour l'am
 
 **performances après optimisation**
 
-[visiter la version optimisée du site depuis la Gitpage](https://patrickcharda.github.io/La_Chouette_Agence/)
+[visiter la version optimisée du site depuis la Github page](https://patrickcharda.github.io/La_Chouette_Agence/)
 
 [visiter la version optimisée du site depuis mon hébergement](https://la-chouette-agence.by-webcycle.fr)
 
